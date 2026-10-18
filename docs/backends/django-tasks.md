@@ -56,12 +56,12 @@ PRODUCTION_PROCESSES = {
 
 ## ARGS
 
-| Argument | Default | Description |
-| --- | --- | --- |
+| Argument     | Default   | Description                       |
+| ------------ | --------- | --------------------------------- |
 | `queue-name` | `default` | Comma-separated queues to process |
-| `interval` | `1` | Seconds between checks when idle |
-| `backend` | `default` | Configured task backend alias |
-| `verbosity` | `1` | Log verbosity (0–3) |
+| `interval`   | `1`       | Seconds between checks when idle  |
+| `backend`    | `default` | Configured task backend alias     |
+| `verbosity`  | `1`       | Log verbosity (0–3)               |
 
 Run `python manage.py db_worker --help` for the options supported by your
 installed django-tasks-db version. Run multiple worker processes through your
